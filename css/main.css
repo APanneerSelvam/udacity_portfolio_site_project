@@ -1,0 +1,18 @@
+@media screen and (max-width: 450px){
+
+.logo-img {
+	position: absolute;
+	width: 75px;
+	height: 75px;
+    float: left;	
+}
+
+.header-text{
+	float:right;
+	margin-top: 15px;
+}
+
+.header-box{
+	 border-bottom: 5px solid #7d97ad;
+}
+}
