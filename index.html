@@ -1,67 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <title>Portfolio Site</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
-
 <body>
-    <header class="header-box">
-        <img class="logo-img" src="img/udacity_logo.png" alt="udacity logo" height="120" width="120" />
-        <div class="header-text">
-            <p style="font-size: 250%;">PANNEER SELVAM</p>
-            <div style="float: right;">
-                <p><strong>FRONT-END NINJA<strong></p>
-            </div>
-        </div>  
-    </header>
-    <br/>
-  <section class="container">
+    <div class="container">
         <div class="row">
-            <div class="col-md-9">
-                <img class="main-img" src="img/coding-image.jpg" alt="html image" />
+            <div class="col-xs-3">
+                <div class="media">
+                    <div class="media-left"><img alt="udacity logo" class="img-responsive" src="img/udacity_logo.png"></div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="header-text">
+                    <p class="heading-name">PANNEER SELVAM</p>
+                    <div class="name-right">
+                        <p><strong>FRONT-END NINJA</strong></p>
+                    </div>
+                </div>
             </div>
         </div>
-        <br/>
-            <div class="row">
-                <article>
-                    <h1 class="heading-text" style="text-decoration-color: #7d97ad;">Featured Work</h1>
-                    <div class="col-md-3" >
-                        <figure>
-                            <img class="article-img" src="img/movie-img2.jpg" alt="python website image"/>
-                            <figcaption>
-                                <h3 align="center">MOVIE BOOKING<h3>
-                                <a  href="https://github.com/APanneerSelvam/udacity_movie_webstie">https://github.com/movie</a>
-                                </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-md-3">
-                       <figure>
-                            <img class="article-img" src="img/travel-project-img.jpeg" alt="python website image" />
-                            <figcaption>
-                            <h3 align="center">TRAVEL BOOKING<h3>
-                            <a href="https://github.com/APanneerSelvam/my-travel-plans">https://github.com/travel</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-md-3">
-                        <figure>
-                            <img class="article-img" src="img/collaboration-project-img.jpg" alt="python website image" />
-                            <figcaption>
-                            <h3 align="center">CYCLING<h3>
-                            <a href="https://github.com/APanneerSelvam/course-collaboration-travel-plans">https://github.com/cycling</a>
-                            </figcaption>
-                        </figure>
-                    </div>
+        <div class="row">
+            <div class="col-md-9">
+                <hr class="thickness">
             </div>
+        </div>
+        <div class="row">
+            <div class="col-md-9"><img alt="html image" class="main-img" src="img/coding-image.jpg"></div>
+        </div>
+        <div class="row">
+            <article>
+                <h1 class="heading-text">Featured Work</h1>
+                <div class="col-md-3">
+                    <figure>
+                        <img alt="python website image" class="img-fluid" src="img/movie-img2.jpg">
+                        <figcaption>
+                            <h3>MOVIE BOOKING</h3><a href="https://github.com/APanneerSelvam/udacity_movie_webstie" target="_blank">https://github.com/movie</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure>
+                        <img alt="python website image" class="img-fluid" src="img/travel-project-img.jpeg">
+                        <figcaption>
+                            <h3>TRAVEL BOOKING</h3><a href="https://github.com/APanneerSelvam/my-travel-plans" target="_blank">https://github.com/travel</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure>
+                        <img alt="python website image" class="img-fluid" src="img/collaboration-project-img.jpg">
+                        <figcaption>
+                            <h3>CYCLING</h3><a href="https://github.com/APanneerSelvam/course-collaboration-travel-plans" target="_blank">https://github.com/cycling</a>
+                        </figcaption>
+                    </figure>
+                </div>
             </article>
-    </section> 
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
 </body>
-
 </html>
